@@ -5,3 +5,16 @@ html {
   background-position: center top;
   background-color: #fccbeb;
 }
+.yakbak {
+  background-image: url(assets/yakbak.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 400px;
+  border: 2px solid red;
+  position: fixed;
+  right: 20%;
+  bottom: 0%;
+
+}
+
