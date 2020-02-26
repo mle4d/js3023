@@ -17,13 +17,14 @@ html {
 }
 .pointer {
   background-image: url(assets/cursorhand.png);
-  background-size: 70%;
+  background-size: 60%;
   background-repeat: no-repeat;
-  width: 60%;
-  height: 100%;
+  width: 50%;
+  height: 140%;
   position: fixed;
   left: 15%;
   bottom: 0%;
   cursor: none;
+  transform: rotate(18deg);
 }
 
