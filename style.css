@@ -9,20 +9,21 @@ html {
   background-image: url(assets/yakbak.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 250px;
-  height: 400px;
+  width: 20%;
+  height: 70%;
   position: fixed;
-  right: 24%;
+  right: 25%;
   bottom: 0%;
 }
 .pointer {
   background-image: url(assets/cursorhand.png);
   background-size: 70%;
   background-repeat: no-repeat;
-  width: 650px;
-  height: 340px;
+  width: 60%;
+  height: 70%;
   position: fixed;
   left: 15%;
   bottom: 0%;
+  cursor: none;
 }
 
