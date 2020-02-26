@@ -1,6 +1,6 @@
 html {
   background-image: url(assets/90sdesk.png);
-  background-size: 72%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-color: #fccbeb;
@@ -20,7 +20,7 @@ html {
   background-size: 70%;
   background-repeat: no-repeat;
   width: 60%;
-  height: 70%;
+  height: 100%;
   position: fixed;
   left: 15%;
   bottom: 0%;
