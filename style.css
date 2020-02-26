@@ -4,6 +4,7 @@ html {
   background-repeat: no-repeat;
   background-position: center top;
   background-color: #fccbeb;
+  cursor: none;
 }
 .yakbak {
   background-image: url(assets/yakbak.png);
@@ -14,6 +15,40 @@ html {
   position: fixed;
   right: 25%;
   bottom: 0%;
+}
+#say {
+  border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
+  position: relative;
+  top: 24.5%;
+  right: 2%;
+  background-color: transparent;
+  cursor: none;
+  /* border: none; */
+}
+#say:hover {
+  background-color: red;
+}
+#say:active {
+  background-color: orange;
+}
+#play {
+  border-radius: 50%;
+  width: 3.5em;
+  height: 3.5em;
+  position: relative;
+  top: 34%;
+  right: -9%;
+  background-color: transparent;
+  cursor: none;
+  /* border: none; */
+}
+#play:hover {
+  background-color: red;
+}
+#play:active {
+  background-color: orange;
 }
 .pointer {
   background-image: url(assets/cursorhand.png);
