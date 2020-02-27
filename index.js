@@ -28,7 +28,7 @@ document.onmousemove = follow;
 
 const msg = new SpeechSynthesisUtterance();
   let voices = [];
-  const voicesDropdown = document.querySelector('[name="voice"]');
+  const voicesList = document.querySelector('[name="voice"]');
   const options = document.querySelectorAll('[type="range"], [name="text"]');
   // const speakButton = document.querySelector('#say');
   const playButton = document.querySelector('#play');
@@ -36,7 +36,7 @@ const msg = new SpeechSynthesisUtterance();
 
   function populateVoices() {
     voices = this.getVoices();
-    voicesDropdown.innerHTML = voices
+    voicesList.innerHTML = voices
       .filter(voice => voice.name.length < 10)
       .filter(voice => voice.lang.includes('en'))
       .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
@@ -48,6 +48,11 @@ const msg = new SpeechSynthesisUtterance();
     toggle();
   }
 
+  function setOption() {
+    console.log(this.name, this.value);
+    msg[this.name] = this.value;
+    toggle();
+  }
   function toggle(startOver = true) {
     speechSynthesis.cancel();
     if (startOver) {
@@ -55,14 +60,8 @@ const msg = new SpeechSynthesisUtterance();
     }
   }
 
-  function setOption() {
-    console.log(this.name, this.value);
-    msg[this.name] = this.value;
-    toggle();
-  }
-
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
-  voicesDropdown.addEventListener('change', setVoice);
-  // options.forEach(option => option.addEventListener('change', setOption));
+  voicesList.addEventListener('change', setVoice);
+  options.forEach(option => option.addEventListener('change', setOption));
   // sayButton.addEventListener('click', toggle);
   playButton.addEventListener('click', toggle);
