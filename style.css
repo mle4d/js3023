@@ -84,7 +84,7 @@ select {
   text-align: center;
 }
 option {
-  opacity: .2;
+  opacity: 0;
 }
 
 .dummyList {
