@@ -39,7 +39,7 @@ const msg = new SpeechSynthesisUtterance();
     voicesList.innerHTML = voices
       .filter(voice => voice.name.length < 10)
       .filter(voice => voice.lang.includes('en'))
-      .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
+      .map(voice => `<option value="${voice.name}">${voice.name}</option>`)
       .join('');
   }
 
@@ -49,7 +49,6 @@ const msg = new SpeechSynthesisUtterance();
   }
 
   function setOption() {
-    console.log(this.name, this.value);
     msg[this.name] = this.value;
     toggle();
   }
@@ -61,7 +60,7 @@ const msg = new SpeechSynthesisUtterance();
   }
 
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
-  voicesList.addEventListener('change', setVoice);
+  voicesList.addEventListener('click', setVoice);
   options.forEach(option => option.addEventListener('change', setOption));
   // sayButton.addEventListener('click', toggle);
   playButton.addEventListener('click', toggle);
