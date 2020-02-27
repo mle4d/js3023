@@ -14,8 +14,9 @@ html {
   width: 20%;
   height: 70%;
   position: fixed;
-  right: 25%;
-  bottom: 0%;
+  right: 20%;
+  bottom: -20%;
+  transform: rotate(10deg);
 }
 #say {
   border-radius: 50%;
