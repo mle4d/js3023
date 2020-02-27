@@ -99,5 +99,14 @@ option {
   left: -30%;
   text-align: center;
   line-height: 39px;
-  z-index: -1;
+  z-index: 1;
+}
+a:hover {
+  text-decoration-line: underline;
+}
+a:active {
+  text-decoration-line: underline;
+}
+a:visited {
+  color: purple;
 }
