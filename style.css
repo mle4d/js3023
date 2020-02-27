@@ -4,7 +4,7 @@ html {
   background-repeat: no-repeat;
   background-position: center top;
   background-color: #fccbeb;
-  cursor: none;
+  /* cursor: none; */
 }
 .yakbak {
   background-image: url(assets/yakbak.png);
@@ -62,13 +62,21 @@ html {
   cursor: none;
   transform: rotate(18deg);
 }
+.notepad {
+  background-image: url(assets/90spaper.jpeg);
+  width: 380px;
+  height: 500px;
+}
 select {
   width: 100%;
-  display: block;
+  /* height: 100%; */
+  /* display: block; */
   margin: 10px 0;
   padding: 10px;
   border: 0;
   font-size: 2rem;
   background: #F7F7F7;
   outline: 0;
+  background-color: transparent;
+  text-align: right;
 }
