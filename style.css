@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Mono|Space+Mono&display=swap');
 html {
   background-image: url(assets/90sdesk.png);
   background-size: 100%;
@@ -76,7 +76,7 @@ html {
 select {
   font-family: 'Shadows Into Light';
   font-size: calc(14px + (28 - 16) * ((100vw - 200px) / (1600 - 300)));
-  color: #4452bd;
+  color: #d54bc4;
   width: 34%;
   height: 90%;
   border: 0;
@@ -87,7 +87,6 @@ select {
 select option:checked {
   background: linear-gradient(pink, pink);
   background-color: transparent !important; 
-  color: #4452bd !important;
 }
 select option:checked:nth-child(1) {
   background: linear-gradient(#f0d8e6, #efd7e5);
@@ -119,12 +118,19 @@ select option:checked:nth-child(9) {
 select option:checked:nth-child(10) {
   background: linear-gradient(#e5a4c6, #e69ec6);
 }
+select option:hover {
+  text-decoration: #acd129 underline;
+}
 .text {
+  font-family: 'Space Mono';
+  font-size: 90%;
   background-color: transparent;
-  width: 13%;
+  width: 13.5%;
   height: 11%;
   position: fixed;
-  right: 22%;
+  right: 21%;
   top: 17%;
   transform: rotate(42deg);
+  outline: none;
+  border: solid #cf48c0 3px;
 }
