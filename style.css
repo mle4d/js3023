@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 html {
   background-image: url(assets/90sdesk.png);
   background-size: 100%;
@@ -63,20 +64,21 @@ html {
   transform: rotate(18deg);
 }
 .notepad {
-  background-image: url(assets/90spaper.jpeg);
-  width: 380px;
-  height: 500px;
+  width: 20%;
+  height: 70%;
+  transform: rotate(-22deg);
+  position: fixed;
+  top: 22%;
+  left: 38%;
 }
 select {
-  width: 100%;
-  /* height: 100%; */
-  /* display: block; */
-  margin: 10px 0;
-  padding: 10px;
+  font-family: 'Shadows Into Light';
+  font-size: 1.5em;
+  color: #4452bd;
+  width: 70%;
   border: 0;
-  font-size: 2rem;
-  background: #F7F7F7;
   outline: 0;
   background-color: transparent;
   text-align: right;
 }
+
