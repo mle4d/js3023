@@ -5,7 +5,7 @@ html {
   background-repeat: no-repeat;
   background-position: center top;
   background-color: #fccbeb;
-  /* cursor: none; */
+  cursor: none;
 }
 .yakbak {
   background-image: url(assets/yakbak.png);
@@ -67,18 +67,22 @@ html {
   width: 20%;
   height: 70%;
   transform: rotate(-22deg);
-  position: fixed;
-  top: 22%;
+  position: absolute;
+  top: 25%;
   left: 38%;
+  overflow: scroll;
 }
 select {
   font-family: 'Shadows Into Light';
-  font-size: 1.5em;
+  font-size: calc(14px + (28 - 16) * ((100vw - 200px) / (1600 - 300)));
   color: #4452bd;
   width: 70%;
+  height: 90%;
   border: 0;
   outline: 0;
   background-color: transparent;
-  text-align: right;
+  text-align: center;
 }
-
+option {
+  opacity: .2;
+}
