@@ -104,4 +104,12 @@ option {
 ul li a {
   color: #4452bd;
  }
-
+.text {
+  background-color: transparent;
+  width: 13%;
+  height: 11%;
+  position: fixed;
+  right: 22%;
+  top: 17%;
+  transform: rotate(42deg);
+}
