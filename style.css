@@ -70,7 +70,7 @@ html {
   transform: rotate(-22deg);
   position: absolute;
   top: 25%;
-  left: 38%;
+  left: 43%;
   overflow: scroll;
 }
 select {
@@ -84,31 +84,41 @@ select {
   background-color: transparent;
   text-align: center;
 }
-option {
-  opacity: 1;
-}
-
-select option:hover {
-  box-shadow: inset 2px 2px transparent;
-}
-
-option:focus {
-  color: pink; 
-  box-shadow: inset 2px 2px transparent;
-  background: orange;
-}
-option:active{
-  color: pink; 
-  box-shadow: inset 2px 2px pink;
-  background: orange;
-}
 select option:checked {
   background: linear-gradient(pink, pink);
   background-color: transparent !important; 
   color: #4452bd !important;
-  box-shadow: inset 20px 20px pink;
 }
-
+select option:checked:nth-child(1) {
+  background: linear-gradient(#f0d8e6, #efd7e5);
+}
+select option:checked:nth-child(2) {
+  background: linear-gradient(#f2d7e6, #f0d8e6);
+}
+select option:checked:nth-child(3) {
+  background: linear-gradient(#f0d8e6, #efd7e5);
+}
+select option:checked:nth-child(4) {
+  background: linear-gradient(#f1d6e5, #efd7e5);
+}
+select option:checked:nth-child(5) {
+  background: linear-gradient(#f0d8e6, #f1d6e5);
+}
+select option:checked:nth-child(6) {
+  background: linear-gradient(#edd1e0, #eac7db);
+}
+select option:checked:nth-child(7) {
+  background: linear-gradient(#edc7dc, #e9bbd5);
+}
+select option:checked:nth-child(8) {
+  background: linear-gradient(#ebbbd5, #e6b1cd);
+}
+select option:checked:nth-child(9) {
+  background: linear-gradient(#e7aece, #e8a6ca);
+}
+select option:checked:nth-child(10) {
+  background: linear-gradient(#e5a4c6, #e69ec6);
+}
 .text {
   background-color: transparent;
   width: 13%;
