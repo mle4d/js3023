@@ -64,3 +64,29 @@ const msg = new SpeechSynthesisUtterance();
   options.forEach(option => option.addEventListener('change', setOption));
   // sayButton.addEventListener('click', toggle);
   playButton.addEventListener('click', toggle);
+
+  window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  
+  const recognition = new SpeechRecognition();
+  recognition.interimResults = true;
+  recognition.lang = 'en-US';
+  
+  let p = document.createElement('p');
+  const words = document.querySelector('.speech');
+  words.appendChild(p);
+
+  recognition.addEventListener('result', e => {
+    const transcript = Array.from(e.results)
+      .map(result => result[0])
+      .map(result => result.transcript)
+      .join('');
+
+      const Script = transcript.replace();
+      p.textContent = Script;
+
+      if (e.results[0].isFinal) {
+        p = document.createElement('p');
+        words.appendChild(p);
+      }
+  });
+  recognition.start();
