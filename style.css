@@ -121,7 +121,7 @@ select option:checked:nth-child(10) {
 select option:hover {
   text-decoration: #acd129 underline;
 }
-.text {
+/* .text {
   font-family: 'Space Mono';
   font-size: 90%;
   background-color: transparent;
@@ -133,7 +133,7 @@ select option:hover {
   transform: rotate(42deg);
   outline: none;
   border: solid #cf48c0 3px;
-}
+} */
 .speech {
   font-family: 'Space Mono';
   font-size: 90%;
@@ -145,6 +145,6 @@ select option:hover {
   top: 17%;
   transform: rotate(42deg);
   outline: none;
-  z-index: 0;
+  z-index: +1;
   overflow: scroll;
 }
