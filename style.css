@@ -134,3 +134,17 @@ select option:hover {
   outline: none;
   border: solid #cf48c0 3px;
 }
+.speech {
+  font-family: 'Space Mono';
+  font-size: 90%;
+  background-color: transparent;
+  width: 13.5%;
+  height: 11%;
+  position: fixed;
+  right: 21%;
+  top: 17%;
+  transform: rotate(42deg);
+  outline: none;
+  z-index: 0;
+  overflow: scroll;
+}
