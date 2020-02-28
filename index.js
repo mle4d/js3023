@@ -32,7 +32,7 @@ const msg = new SpeechSynthesisUtterance();
   const options = document.querySelectorAll('[type="range"], [name="text"]');
   // const speakButton = document.querySelector('#say');
   const playButton = document.querySelector('#play');
-  msg.text = document.querySelector('[name="text"]').value;
+  msg.text = document.querySelector('.speech').data;
 
   function populateVoices() {
     voices = this.getVoices();
