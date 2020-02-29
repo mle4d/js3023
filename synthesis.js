@@ -1,11 +1,12 @@
 const msg = new SpeechSynthesisUtterance();
   let voices = [];
   const voicesList = document.querySelector('[name="voice"]');
-  const options = document.querySelectorAll('[type="range"], [name="text"]');
+  const options = document.querySelectorAll('[type="range"], [class="text"]');
   // const speakButton = document.querySelector('#say');
   const playButton = document.querySelector('#play');
-  msg.text = document.querySelector('.msg').value;
+  msg.text = document.querySelector('.text').value;
   console.log(msg);
+  
 
   function populateVoices() {
     voices = this.getVoices();

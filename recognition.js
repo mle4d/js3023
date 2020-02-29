@@ -25,9 +25,12 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
         for (var i = event.resultIndex; i < event.results.length; ++i) {
           if (event.results[i].isFinal) {
             text.value += event.results[i][0].transcript;
+            console.log(value);
+            const Script = transcript.replace();
+            textarea.textContent = Script;
           }
         }
       }
-      // msg(result.transcript)
+     
   
   recognition.start();
