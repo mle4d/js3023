@@ -1,31 +1,3 @@
-var divName = 'pointer';
-var offX = -500;          
-var offY = -30;          
-
-function mouseX(evt) {
-  if (!evt) evt = window.event; 
-  if (evt.pageX) 
-  return evt.pageX; 
-  else if (evt.clientX)
-  return evt.clientX + (document.documentElement.scrollLeft ?  document.documentElement.scrollLeft : document.body.scrollLeft); 
-  else return 0;
-}
-function mouseY(evt) {
-  if (!evt) evt = window.event; 
-  if (evt.pageY) 
-  return evt.pageY; 
-  else if (evt.clientY)
-  return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop); 
-  else return 0;
-}
-
-function follow(evt) {
-    var obj = document.getElementById(divName).style;
-    obj.left = (parseInt(mouseX(evt))+offX) + 'px';
-    obj.top = (parseInt(mouseY(evt))+offY) + 'px'; 
-    }
-document.onmousemove = follow;
-
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   
   const recognition = new SpeechRecognition();
@@ -58,7 +30,7 @@ const msg = new SpeechSynthesisUtterance();
   const options = document.querySelectorAll('[type="range"], [name="text"]');
   // const speakButton = document.querySelector('#say');
   const playButton = document.querySelector('#play');
-  msg.text = document.querySelector('.speech').value;
+  msg.text = document.querySelector('.msg').value;
   console.log(msg);
 
   function populateVoices() {
@@ -82,7 +54,7 @@ const msg = new SpeechSynthesisUtterance();
   function toggle(startOver = true) {
     speechSynthesis.cancel();
     if (startOver) {
-      speechSynthesis.speak(speech);
+      speechSynthesis.speak(msg);
     }
   }
 
