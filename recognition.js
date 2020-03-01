@@ -13,5 +13,6 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
         }
       }
     }
-     
-  recognition.start();
+    document.getElementById('say').onclick = function() {
+      recognition.start();
+    }
