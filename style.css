@@ -14,8 +14,8 @@ html {
   width: 20%;
   height: 70%;
   position: fixed;
-  right: 20%;
-  bottom: -20%;
+  right: 19%;
+  bottom: -24%;
   transform: rotate(10deg);
 }
 #say {
@@ -131,14 +131,14 @@ select option:hover {
   font-family: 'Space Mono';
   font-size: 90%;
   background-color: transparent;
-  width: 13.1%;
+  width: 13.3%;
   height: 11%;
   position: fixed;
-  right: 21%;
+  right: 21.8%;
   top: 17%;
   transform: rotate(42deg);
   outline: none;
-  border: solid #cf48c0 3px;
+  border: none;
 }
 ::-webkit-input-placeholder { 
   color: #000000c0;
