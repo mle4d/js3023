@@ -10,6 +10,7 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
       text.value += event.results[i][0].transcript;
         const script = transcript.update();
           text.value = script;
+          speak(transcript);
         }
       }
     }
