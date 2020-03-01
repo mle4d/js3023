@@ -141,11 +141,11 @@ select option:hover {
   border: solid #cf48c0 3px;
 }
 ::-webkit-input-placeholder { 
-  color: #000000;
+  color: #000000c0;
 }
 :-ms-input-placeholder { 
-  color: #000000;
+  color: #000000c0;
 }
 ::placeholder {
-  color: #000000;
+  color: #000000c0;
 }
