@@ -1,11 +1,10 @@
 const msg = new SpeechSynthesisUtterance();
   let voices = [];
   const voicesList = document.querySelector('[name="voice"]');
-  const options = document.querySelectorAll('[type="range"], [class="text"]');
-  // const speakButton = document.querySelector('#say');
+  const options = document.querySelectorAll('[class="text"]');
   const playButton = document.querySelector('#play');
   msg.text = document.querySelector('.text').value;
-  console.log(msg);
+  
   
 
   function populateVoices() {
@@ -36,7 +35,6 @@ const msg = new SpeechSynthesisUtterance();
   speechSynthesis.addEventListener('voiceschanged', populateVoices);
   voicesList.addEventListener('click', setVoice);
   options.forEach(option => option.addEventListener('change', setOption));
-  // sayButton.addEventListener('click', toggle);
   playButton.addEventListener('click', toggle);
 
   
