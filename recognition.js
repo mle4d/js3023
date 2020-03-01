@@ -8,11 +8,12 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
     for (var i = event.resultIndex; i < event.results.length; ++i) {
     if (event.results[i].isFinal) {
       text.value += event.results[i][0].transcript;
-        const script = transcript.replace();
+        const script = transcript.update();
           text.value = script;
         }
       }
     }
+
     document.getElementById('say').onclick = function() {
       recognition.start();
     }
