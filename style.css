@@ -131,7 +131,7 @@ select option:hover {
   font-family: 'Space Mono';
   font-size: 90%;
   background-color: transparent;
-  width: 13.5%;
+  width: 13.1%;
   height: 11%;
   position: fixed;
   right: 21%;
@@ -140,4 +140,12 @@ select option:hover {
   outline: none;
   border: solid #cf48c0 3px;
 }
-
+::-webkit-input-placeholder { 
+  color: #000000;
+}
+:-ms-input-placeholder { 
+  color: #000000;
+}
+::placeholder {
+  color: #000000;
+}
