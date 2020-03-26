@@ -23,13 +23,12 @@ html {
   width: 3em;
   height: 3em;
   position: relative;
-  top: 15%;
-  left: 34%;
+  top: 16%;
+  left: 37%;
   background-color: transparent;
   cursor: none;
   border: none;
   outline-style: none;
-  border: solid #30a481 2px;
 }
 #say:hover {
   border: solid #30a481 2px;
@@ -41,11 +40,11 @@ html {
 }
 #play {
   border-radius: 50%;
-  width: 3.5em;
-  height: 3.5em;
+  width: 3em;
+  height: 3em;
   position: relative;
-  top: 32%;
-  right: -9%;
+  top: 22%;
+  left: 62%;
   background-color: transparent;
   cursor: none;
   border: none;
