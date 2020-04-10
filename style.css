@@ -28,12 +28,12 @@ html {
   outline-style: none;
 }
 #say:hover {
-  border: solid #30a481 2px;
+  box-shadow: 0px 0px 10px #11201b;
 }
 #say:active {
   width: 3.5vmax;
   height: 3.5vmax;
-  border: solid #30a481d7 2px;
+  box-shadow: 0px 0px 10px  #2b9777;
 }
 #play {
   border-radius: 50%;
@@ -47,12 +47,12 @@ html {
   outline-style: none;
 }
 #play:hover {
-  border: solid #30a481 2px;
+  box-shadow: 0px 0px 10px #11201b;
 }
 #play:active {
   width: 3.5vmax;
   height: 3.5vmax;
-  border: solid #30a481d7 2px;
+  box-shadow: 0px 0px 10px  #2b9777;
 }
 .pointer {
   background-image: url(assets/cursorhand.png);
