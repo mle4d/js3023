@@ -1,5 +1,5 @@
 var divName = 'pointer';
-var offX = -500;          
+var offX = -520;          
 var offY = -30;          
 
 function mouseX(evt) {
