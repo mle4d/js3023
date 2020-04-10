@@ -25,10 +25,8 @@ html {
   right: -1vmax;
   bottom: -9.5vmax;
   background-color: transparent;
-  /* cursor: none; */
-  /* border: none; */
+  border: none;
   outline-style: none;
-  border: solid red 2px;
 }
 #say:hover {
   border: solid #30a481 2px;
@@ -47,9 +45,7 @@ html {
   bottom: -13.5vmax;
   background-color: transparent;
   border: none;
-  /* cursor: none; */
   outline-style: none;
-  border: solid red 2px;
 }
 #play:hover {
   border: solid #30a481 2px;
@@ -68,8 +64,6 @@ html {
   position: fixed;
   right: 15vmax;
   bottom: 0vmax;
-  /* cursor: none; */
-  /* transform: rotate(18deg); */
 }
 .notepad {
   width: 20%;
