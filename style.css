@@ -63,6 +63,7 @@ html {
   position: fixed;
   right: 15vmax;
   bottom: 0vmax;
+  transform: rotate(6deg);
 }
 .notepad {
   width: 20%;
