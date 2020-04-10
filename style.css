@@ -5,7 +5,7 @@ html {
   background-repeat: no-repeat;
   background-position: center top;
   background-color: #fccbeb;
-  cursor: none;
+  /* cursor: none; */
 }
 .yakbak {
   background-image: url(assets/yakbak.png);
@@ -19,42 +19,44 @@ html {
 }
 #say {
   border-radius: 50%;
-  width: 4vw;
-  height: 8vh;
+  width: 3.5vmax;
+  height: 3.5vmax;
   position: relative;
-  right: -7%;
-  bottom: -33%;
+  right: -1vmax;
+  bottom: -9.5vmax;
   background-color: transparent;
-  cursor: none;
-  border: none;
+  /* cursor: none; */
+  /* border: none; */
   outline-style: none;
+  border: solid red 2px;
 }
 #say:hover {
   border: solid #30a481 2px;
 }
 #say:active {
-  width: 4vw;
-  height: 8vh;
+  width: 3.5vmax;
+  height: 3.5vmax;
   border: solid #30a481d7 2px;
 }
 #play {
   border-radius: 50%;
-  width: 4.5em;
-  height: 4.5em;
+  width: 3.5vmax;
+  height: 3.5vmax;
   position: relative;
-  right: -20%;
-  bottom: -47%;
+  right: -3vmax;
+  bottom: -13.5vmax;
   background-color: transparent;
   border: none;
-  cursor: none;
+  /* cursor: none; */
   outline-style: none;
+  border: solid red 2px;
 }
 #play:hover {
   border: solid #30a481 2px;
 }
 #play:active {
-  width: 4.5em;
-  height: 4.5em;
+  width: 3.5vmax;
+  height: 3.5vmax;
   border: solid #30a481d7 2px;
 }
 .pointer {
@@ -64,10 +66,10 @@ html {
   width: 40vmax;
   height: 130vmax;
   position: fixed;
-  right: 15%;
-  bottom: 0%;
-  cursor: none;
-  transform: rotate(18deg);
+  right: 15vmax;
+  bottom: 0vmax;
+  /* cursor: none; */
+  /* transform: rotate(18deg); */
 }
 .notepad {
   width: 20%;
@@ -80,14 +82,15 @@ html {
 }
 select {
   font-family: 'Shadows Into Light';
-  font-size: calc(14px + (28 - 16) * ((100vw - 200px) / (1600 - 300)));
+  font-size: 1.8vmax;
   color: #d54bc4;
-  width: 34%;
-  height: 90%;
+  width: 8vmax;
+  height: 30vmax;
   border: 0;
   outline: 0;
   background-color: transparent;
   text-align: center;
+  overflow: scroll;
 }
 select option:checked {
   background: linear-gradient(pink, pink);
@@ -133,8 +136,8 @@ select option:hover {
   width: 13vmax;
   height: 5vmax;
   position: fixed;
-  right: 21.8%;
-  top: 18.5%;
+  right: 21vmax;
+  top: 9vmax;
   transform: rotate(42deg);
   outline: none;
   border: none;
