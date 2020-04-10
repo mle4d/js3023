@@ -11,20 +11,19 @@ html {
   background-image: url(assets/yakbak.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 20%;
-  height: 70%;
+  width: 15vw;
+  height: 60vh;
   position: fixed;
-  left: 15%;
+  right: 25%;
   bottom: -14%;
-  transform: rotate(15deg);
 }
 #say {
   border-radius: 50%;
-  width: 3em;
-  height: 3em;
+  width: 4vw;
+  height: 8vh;
   position: relative;
-  top: 16%;
-  left: 37%;
+  right: -7%;
+  bottom: -33%;
   background-color: transparent;
   cursor: none;
   border: none;
@@ -34,38 +33,38 @@ html {
   border: solid #30a481 2px;
 }
 #say:active {
-  width: 3.3em;
-  height: 3.3em;
+  width: 4vw;
+  height: 8vh;
   border: solid #30a481d7 2px;
 }
 #play {
   border-radius: 50%;
-  width: 3em;
-  height: 3em;
+  width: 4.5em;
+  height: 4.5em;
   position: relative;
-  top: 22%;
-  left: 62%;
+  right: -20%;
+  bottom: -47%;
   background-color: transparent;
-  cursor: none;
   border: none;
+  cursor: none;
   outline-style: none;
 }
 #play:hover {
   border: solid #30a481 2px;
 }
 #play:active {
-  width: 3.3em;
-  height: 3.3em;
+  width: 4.5em;
+  height: 4.5em;
   border: solid #30a481d7 2px;
 }
 .pointer {
   background-image: url(assets/cursorhand.png);
   background-size: 60%;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 140%;
+  width: 40vmax;
+  height: 130vmax;
   position: fixed;
-  left: 15%;
+  right: 15%;
   bottom: 0%;
   cursor: none;
   transform: rotate(18deg);
@@ -129,13 +128,13 @@ select option:hover {
 }
 .text {
   font-family: 'Space Mono';
-  font-size: 90%;
+  font-size: 1vmax;
   background-color: transparent;
-  width: 13.3%;
-  height: 11%;
+  width: 13vmax;
+  height: 5vmax;
   position: fixed;
   right: 21.8%;
-  top: 17.5%;
+  top: 18.5%;
   transform: rotate(42deg);
   outline: none;
   border: none;
