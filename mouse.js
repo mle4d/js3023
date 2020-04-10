@@ -1,6 +1,6 @@
 var divName = 'pointer';
-var offX = -520;          
-var offY = -30;          
+var offX = -400;          
+var offY = 10;          
 
 function mouseX(evt) {
   if (!evt) evt = window.event; 
