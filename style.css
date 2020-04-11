@@ -168,9 +168,9 @@ select option:hover {
     bottom: -34%;
   }
   #mobileMessage {
-    position: fixed;
+    /* position: fixed;
     right: 15%;
-    bottom: -44%;
+    bottom: -44%; */
     font-family: 'Space Mono';
     font-size: 1.3vmax;
     color: #d54bc4;
