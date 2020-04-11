@@ -151,8 +151,8 @@ select option:hover {
   }
   .pointer {
     position: fixed;
-    left: 5%;
-    bottom: -80%;
+    left: 1%;
+    bottom: -70%;
   }
   .yakbak {
     background-image: url(assets/yakbak.png);
