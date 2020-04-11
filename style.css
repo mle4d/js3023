@@ -156,7 +156,7 @@ select option:hover {
   }
   .pointer {
     position: fixed;
-    left: 1%;
+    left: -3%;
     bottom: -70%;
   }
   .yakbak {
