@@ -151,15 +151,15 @@ select option:hover {
   }
   .pointer {
     position: fixed;
-    left: 20%;
+    left: 5%;
     bottom: -80%;
   }
   .yakbak {
     background-image: url(assets/yakbak.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 25vw;
-    height: 70vh;
+    width: 35vw;
+    height: 90vh;
     position: fixed;
     right: 15%;
     bottom: -44%;
