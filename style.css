@@ -150,14 +150,18 @@ select option:hover {
     display: none;
   }
   .pointer {
-    background-image: url(assets/cursorhand.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    width: 40vmax;
-    height: 130vmax;
     position: fixed;
     left: 20%;
     bottom: -80%;
-    transform: rotate(6deg);
+  }
+  .yakbak {
+    background-image: url(assets/yakbak.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 70vh;
+    position: fixed;
+    right: 15%;
+    bottom: -44%;
   }
 }
