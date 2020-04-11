@@ -156,8 +156,8 @@ select option:hover {
     width: 40vmax;
     height: 130vmax;
     position: fixed;
-    left: 30%;
-    bottom: -50%;
+    left: 20%;
+    bottom: -80%;
     transform: rotate(6deg);
   }
 }
