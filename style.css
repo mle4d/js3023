@@ -149,4 +149,15 @@ select option:hover {
   .text {
     display: none;
   }
+  .pointer {
+    background-image: url(assets/cursorhand.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 40vmax;
+    height: 130vmax;
+    position: fixed;
+    left: 30%;
+    bottom: -50%;
+    transform: rotate(6deg);
+  }
 }
