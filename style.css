@@ -171,11 +171,11 @@ select option:hover {
   #mobileMessage {
     position: fixed;
     right: 10%;
-    bottom: 4%;
+    bottom: 2%;
     font-family: 'Space Mono';
     font-size: 3vmax;
     display: block;
-    width: 40%;
+    width: 50%;
     transform: rotate(-10deg);
   }
 }
