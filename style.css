@@ -145,3 +145,8 @@ select option:hover {
 ::placeholder {
   color: #000000c0;
 }
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .text {
+    display: none;
+  }
+}
