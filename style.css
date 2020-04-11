@@ -175,7 +175,8 @@ select option:hover {
     font-family: 'Space Mono';
     font-size: 3vmax;
     display: block;
-    width: 55%;
+    width: 60%;
     transform: rotate(-10deg);
+    text-align: justify;
   }
 }
