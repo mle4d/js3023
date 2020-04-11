@@ -174,5 +174,6 @@ select option:hover {
     font-family: 'Space Mono';
     font-size: 1.3vmax;
     color: #d54bc4;
+    display: visible;
   }
 }
