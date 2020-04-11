@@ -145,6 +145,9 @@ select option:hover {
 ::placeholder {
   color: #000000c0;
 }
+#mobileMessage {
+  display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .text {
     display: none;
@@ -162,6 +165,14 @@ select option:hover {
     height: 90vh;
     position: fixed;
     right: 15%;
+    bottom: -34%;
+  }
+  #mobileMessage {
+    position: fixed;
+    right: 15%;
     bottom: -44%;
+    font-family: 'Space Mono';
+    font-size: 1.3vmax;
+    color: #d54bc4;
   }
 }
