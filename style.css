@@ -146,7 +146,15 @@ select option:hover {
   color: #000000c0;
 }
 #mobileMessage {
-  display: none;
+  font-family: 'Space Mono';
+    font-size: 2.3vmax;
+    color: #d54bc4;
+    display: none;
+    width: 15%;
+    background-color: #fccbeb;
+    position: fixed;
+    right: 15%;
+    bottom: -14%;
 }
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .text {
@@ -168,12 +176,12 @@ select option:hover {
     bottom: -34%;
   }
   #mobileMessage {
-    /* position: fixed;
+    position: fixed;
     right: 15%;
-    bottom: -44%; */
+    bottom: -44%;
     font-family: 'Space Mono';
     font-size: 4.3vmax;
     color: #d54bc4;
-    display: visible;
+    display: block;
   }
 }
